@@ -6,7 +6,7 @@ from .models import Empresa, Funcionario
 class EmpresaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Empresa
-        fields = ['id', 'Empresa', 'Fantasia', 'Responsavel', 'email']
+        fields = ['id', 'Social', 'Fantasia', 'Responsável', 'email']
 
 
 class FuncionarioSerializer(serializers.ModelSerializer):
