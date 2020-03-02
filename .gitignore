@@ -3,5 +3,5 @@
 __pycache__/
 *.pyc
 db.sqlite3
-concoreapi/__pycache__/
-concore/__pycache__/
+concore/concoreapi/__pycache__/
+concore/concore/__pycache__/
